@@ -1,0 +1,28 @@
+# Build artifacts
+dist/
+build/
+.parcel-cache/
+.turbo/
+out/
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
+.pnpm/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
